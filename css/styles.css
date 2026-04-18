@@ -70,54 +70,56 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-} 
+}
 
 .header-navigation {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
-.header-logo
-{font-weight: 700;
+.header-logo {
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-font-family: "Raleway";
-padding: 24px 0;
-margin-right: 76px;
+    font-family: "Raleway";
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .header-logo-blue {
     color: blue;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    font-family: "Raleway";}
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway";
+}
 
 .header-list {
     display: flex;
     align-items: center;
     gap: 40px;
-}   
-.header-contacts-list{
+}
+
+.header-contacts-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    }
+}
 
 .header-link {
     display: block;
     padding: 24px 0;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .header-link:hover,
@@ -130,7 +132,8 @@ margin-right: 76px;
     color: #404BBF;
 }
 
-.contacts-link {font-weight: 400;
+.contacts-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -141,8 +144,18 @@ margin-right: 76px;
     gap: 40px;
     padding: 24px 0;
 }
+
 .contacts {
     margin-left: auto;
+}
+.header-contacts-link{
+    display: block;
+        padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
                   /* hero */
 
@@ -167,25 +180,18 @@ margin-right: 76px;
 }
 
 .hero-button{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-
-}
-.hero-button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    border-radius: 4px;
-        min-width: 196px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        background-color: #4d5ae5;
-        border: none;
     display: block;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    min-width: 196px;
+    padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -328,7 +334,6 @@ margin-right: 76px;
 .portfolio-card-content{
     text-align: left;
     padding: 32px 16px;
-    border-top: none;
 }
 
                  /* footer */
