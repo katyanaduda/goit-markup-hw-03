@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    list style: none;
+    list-style: none;
     box-sizing: border-box;
 }
 
@@ -57,7 +57,7 @@ img {
 
 .container {
     max-width: 1158px;
-    padding^ 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,6 @@ img {
                  /* header */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-block: 24px;
 }
 
 .header-container {
@@ -153,10 +152,12 @@ margin-right: 76px;
 
 .hero{
     background-color: #2e2f42;
-    padding: 188px 316px 188px 316px;
+    padding: 188px 0;
     margin: auto 0;
 }
-
+.hero-container{
+    text-align: center;
+}
 .hero-title{
     font-weight: 700;
         font-size: 56px;
@@ -167,7 +168,6 @@ margin-right: 76px;
         margin: 0 auto;
         max-width: 496px;
         margin-bottom: 48px;
-        align-items: center;
 }
 
 .hero-button{
@@ -190,7 +190,6 @@ margin-right: 76px;
         border: none;
     display: block;
     margin: 0 auto;
-    align-items: center;
 }
 
 .hero-button:hover,
@@ -201,7 +200,7 @@ margin-right: 76px;
 
                 /* features */
 
-.features-container {
+.features-container{
     padding-block: 120px;
     margin: 0 auto;
 }
@@ -234,27 +233,20 @@ margin-right: 76px;
 
 .taste{
     background-color:#F4F4FD;
-    padding: 120px 156px 120px 156px; 
-    margin: auto 0;
+    padding: 120px 0; 
 }
 
 .taste-card{
     border-radius: 0 0 4px 4px;
     background: #fff;
-    padding-bottom: 120px;
-    margin-bottom: 32px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    
     border-radius: 0 0 4px 4px;
     gap: 24px;
-    
-    padding: 0px 0px 32px;
-    flex-wrap: wrap;
-    width: calc((100% - 24px * 3) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .taste-card-content{
     text-align: center;
-    padding: 32px 16px 32px 16px;
+    padding: 32px 16px;
 }
 .taste-title {
     font-weight: 700;
@@ -263,7 +255,6 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    align-items: center;
     padding-bottom: 72px;
 }
 
@@ -288,10 +279,9 @@ margin-right: 76px;
 }
 .taste-list{
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    space-between
 }
+
                   /* portfolio */
 
 .portfolio {
@@ -329,12 +319,13 @@ margin-right: 76px;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
+    gap: 48px 24px;
     
 }
 .portfolio-card{
     border: 1px solid #e7e9fc;
     width: calc((100% - 24px * 2) / 3);
+    flex-basic: calc ((100% - 48px) \3);
 }
 
 
@@ -345,7 +336,8 @@ margin-right: 76px;
     padding-block: 100px;
 }
 .footer-conteiner{
-    display: inline block;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-white {
@@ -358,13 +350,15 @@ font-weight: 700;
     color: #f4f4fd;;
     font-family: "Raleway";
 }
-.footer-conteiner{
-    margin-bottom: 16px;
-}
+
 .footer-text{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+.footer-logo{
+    display: inline-block;
+    padding: 0;
 }
